@@ -1,0 +1,8 @@
+.login {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../static/background_image.png);
+}

@@ -1,0 +1,43 @@
+#room-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 75%;
+  max-width: 100%;
+  margin-left: 20%;
+  overflow: hidden;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.active {
+  min-width: 80vw;
+  max-height: 70vh;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.owner {
+  min-width: 10vw;
+  max-height: 10vh;
+  object-fit: cover;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+}
+
+.receivedMessage {
+  background-color: wheat;
+  font-size: 1.25rem;
+  margin-bottom: 2px;
+  overflow-wrap: break-word;
+  color: black;
+  border: wheat;
+  border-radius: 10px;
+  margin-top: 2px;
+  padding: 0.5rem;
+}

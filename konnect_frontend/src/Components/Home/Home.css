@@ -1,0 +1,13 @@
+#profile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 70%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
